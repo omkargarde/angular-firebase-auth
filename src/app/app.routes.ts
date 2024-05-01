@@ -5,14 +5,10 @@ import { RegisterComponent } from './register/register.component';
 export const routes: Routes = [
   {
     path: 'register',
-    component: LoginComponent,
-    // loadChildren: () =>
-    //   import('./login/login.component').then((m) => m.LoginComponent),
+    component: RegisterComponent,
   },
   {
     path: 'login',
-    component: RegisterComponent,
-    // loadChildren: () =>
-    //   import('./register/register.component').then((m) => m.RegisterComponent),
+    component: LoginComponent,
   },
 ];
